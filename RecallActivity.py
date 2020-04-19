@@ -32,7 +32,7 @@ try:
     from sugar3.presence.wrapper import CollabWrapper
     logging.error('USING SUGAR COLLAB WRAPPER!')
 except ImportError:
-    from collabwrapper.collabwrapper import CollabWrapper
+    from collabwrapper import CollabWrapper
 
 from sugar3.graphics.toolbarbox import ToolbarBox
 from sugar3.activity.widgets import ActivityToolbarButton
